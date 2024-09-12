@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButton1Click(View view) {
-        Toast.makeText(getApplicationContext(), "Hello World", Toast.LENGTH_SHORT).show();
+        // Toast 표시, context에 `this`를 제공한 모습!!
+        Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
     }
 }
