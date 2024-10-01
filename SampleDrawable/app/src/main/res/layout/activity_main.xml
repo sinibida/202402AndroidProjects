@@ -19,7 +19,7 @@
     <Button
         android:layout_width="175dp"
         android:layout_height="100dp"
-        android:backgroundTint="#ffff00"
+        android:background="@drawable/finger"
         tools:layout_editor_absoluteX="97dp"
         tools:layout_editor_absoluteY="114dp" />
 
