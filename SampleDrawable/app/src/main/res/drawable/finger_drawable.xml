@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- selector -> drawable -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    1. state 설정
+    2. android:drawable 속성 설정
+    3. 각 state마다 반복
+    우와ㅏㅏ
+    진짜 신기한데
+    -->
+    <item android:state_pressed="true" android:drawable="@drawable/finger_pressed"/>
+    <item android:drawable="@drawable/finger"/>
+</selector>
