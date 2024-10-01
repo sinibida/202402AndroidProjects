@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- shape -> Shape Drawable -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="100sp" android:width="200sp"/>
+    <solid android:color="#aaeeff"/>
+    <!-- 1dp -->
+    <stroke android:width="1dp" android:color="#0000ff"/>
+<!--    패딩: bottom, right, ...-->
+    <padding android:bottom="1dp"/>
+</shape>

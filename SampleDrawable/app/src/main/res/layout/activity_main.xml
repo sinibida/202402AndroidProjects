@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
     <TextView
@@ -22,5 +23,21 @@
         android:background="@drawable/finger_drawable"
         tools:layout_editor_absoluteX="97dp"
         tools:layout_editor_absoluteY="114dp" />
+
+<!--    !: shape background 사용을 위해선 appCompatButton을 사용해야 함-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rect_drawable"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="260dp"
+        android:layout_height="146dp"
+        android:background="@drawable/rect_drawable"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="559dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
