@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="160sp"
+        android:layout_height="80sp"
+        android:text="@string/person_name"
+        android:textColor="#FF0000"
+        android:textSize="32sp"
+        android:typeface="serif"
+        android:gravity="center"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chosun University"
+        android:textColor="#6F00FF"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/person_name_2"
+        android:textColor="#CACACA"
+        android:textSize="24sp"/>
+
+</LinearLayout>
